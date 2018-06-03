@@ -1,7 +1,7 @@
 <?php
 // db
 define('SERVER','localhost');
-define('DBNAME','zatona');
+define('DBNAME','guestbook');
 define('DBUSER','root');
 define('DBPASS','');
 

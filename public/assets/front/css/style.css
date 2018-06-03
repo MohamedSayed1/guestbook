@@ -1,0 +1,83 @@
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav > li > a{color: #ffffff;font-size: 21px;}
+.navbar{border-radius: 0;}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{font-size: 30px;}
+body{background: #ddd;font-family: 'Roboto', sans-serif;}
+.block{margin: 10px auto;width: 70%;overflow: hidden;}
+.user-image{width: 150px;height:150px;text-align: center;display: inline-block;float: left;}
+.user-image img{width: 100%;height:100%;
+	border-radius: 100%;
+	border:3px solid tomato;
+	margin-top: 9px;
+}
+.text-message{display: inline-block;
+	float: left;
+	background: #ffffff;
+	width: 73%;
+	margin-left: 34px;
+	padding: 15px 10px;
+	border: 2px solid tomato;
+	position: relative;
+    
+}
+.text-message p{font-size: 15px;}
+.text-message h1{font-weight: bold;font-size: 21px}
+.text-message:before{
+	content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid tomato;
+    position: absolute;
+    top: 45%;
+    left: -12px;
+    transform: rotate(27deg);
+
+}
+.text-message i,.text-message span{
+	color:tomato;
+	font-weight: bold;
+	font-size: 18px;
+}
+.text-message span{margin-left: 5px;letter-spacing: 2px;background: none;}
+form{
+	margin-top: 26px;
+    margin-left: 23%;
+}
+input{
+	width: 70%;
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 10px
+}
+label{width: 80px;font-size: 17px;}
+textarea{
+	width: 65%;
+	margin-left: 10px;
+}
+footer{
+	background: #333;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	font-size: 16px;
+}
+button{
+	width: 100px;
+	margin: 15px auto;
+	margin-left: 40%;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+}
+.message-success,.message-error{
+   width: 66%;
+   margin-left: 23%;
+	background:#5cb85c;color: #ffffff;padding: 10px;
+	margin-top: 50px;
+	font-size: 17px;
+}
+.message-error{
+	background: tomato;
+}

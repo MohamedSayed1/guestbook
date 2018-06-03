@@ -1,9 +1,10 @@
 <?php
 
-class model{
+class model implements DBinterface
+{
     private $connection;
     private $last; //last query
-    protected $table;
+    public $table;
 
     public function __construct() {
         $this->dbconnect();
